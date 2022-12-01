@@ -6,3 +6,11 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[lib]
+name = "utils"
+path = "src/_utils/lib.rs"
+
+[[bin]]
+name = "day1"
+path = "src/day1/main.rs"
