@@ -18,6 +18,7 @@ fn part1(filename: &str) -> String {
     return max.max(curr).to_string();
 }
 
+#[test]
 fn test_part1() {
     let expected = io::file_to_str("src/day1/part1_test_output.txt");
     let actual = part1("src/day1/test_input.txt");
@@ -61,6 +62,7 @@ fn part2(filename: &str) -> String {
     return max.iter().sum::<i32>().to_string();
 }
 
+#[test]
 fn test_part2() {
     let expected = io::file_to_str("src/day1/part2_test_output.txt");
     let actual = part2("src/day1/test_input.txt");
