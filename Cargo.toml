@@ -12,9 +12,9 @@ name = "utils"
 path = "src/_utils/lib.rs"
 
 [[bin]]
-name = "day1"
-path = "src/day1/main.rs"
+name = "day01"
+path = "src/day01/main.rs"
 
 [[bin]]
-name = "day2"
-path = "src/day2/main.rs"
+name = "day02"
+path = "src/day02/main.rs"

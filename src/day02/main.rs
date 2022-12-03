@@ -26,16 +26,16 @@ fn part1(filename: &str) -> String {
 
 #[test]
 fn test_part1() {
-    let expected = io::file_to_str("src/day2/part1_test_output.txt");
-    let actual = part1("src/day2/test_input.txt");
+    let expected = io::file_to_str("src/day02/part1_test_output.txt");
+    let actual = part1("src/day02/test_input.txt");
 
     assert_eq!(expected, actual, "Expected {} but received {}", expected, actual);
     println!("Test for part 1 passed!");
 }
 
 fn run_part1() {
-    let actual = part1("src/day2/input.txt");
-    io::write_to_file("src/day2/part1_output.txt", actual);
+    let actual = part1("src/day02/input.txt");
+    io::write_to_file("src/day02/part1_output.txt", actual);
 }
 
 fn part2(filename: &str) -> String {
@@ -67,16 +67,16 @@ fn part2(filename: &str) -> String {
 
 #[test]
 fn test_part2() {
-    let expected = io::file_to_str("src/day2/part2_test_output.txt");
-    let actual = part2("src/day2/test_input.txt");
+    let expected = io::file_to_str("src/day02/part2_test_output.txt");
+    let actual = part2("src/day02/test_input.txt");
 
     assert_eq!(expected, actual, "Expected {} but received {}", expected, actual);
     println!("Test for part 2 passed!");
 }
 
 fn run_part2() {
-    let actual = part2("src/day2/input.txt");
-    io::write_to_file("src/day2/part2_output.txt", actual);
+    let actual = part2("src/day02/input.txt");
+    io::write_to_file("src/day02/part2_output.txt", actual);
 }
 
 fn main() {
