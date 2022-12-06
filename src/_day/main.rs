@@ -1,6 +1,3 @@
-use std::collections::HashSet;
-use std::iter::FromIterator;
-use std::ops::Range;
 pub use utils::io;
 
 fn part1(filename: &str) -> String {
