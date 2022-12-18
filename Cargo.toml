@@ -6,6 +6,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.10.5"
 
 [lib]
 name = "utils"
@@ -66,3 +67,7 @@ path = "src/day13/main.rs"
 [[bin]]
 name = "day14"
 path = "src/day14/main.rs"
+
+[[bin]]
+name = "day18"
+path = "src/day18/main.rs"
